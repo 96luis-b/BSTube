@@ -5,14 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./bootstrap-4.1.1-dist/css/bootstrap.min.css">
 
 </head>
 <body>
    
-               
-
-
+    <header>
+        <div class="container-fluid col-12">
+            <div class="row">
+                <div class="col-6 logo">
+                    <label class="label label-danger">BSTube</label>
+                    <img src="" alt="">
+            </div>
+                <div class="input-group col-6 ">
+                    <input type="text" class="form-control" placeholder="Escribe el video que quieres ver...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-danger" type="submit">Buscar</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>   
+    <section class="presentation">
+        <div align="center" class=" embed-responsive embed-responsive-16by9 videoPresentation">
+            <video autoplay loop class="embed-responsive-item">
+                <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <section class="search">
+       <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="input-group mb-3 col-8">
+                    <input type="text" class="form-control" placeholder="Escribe la URL del video de youtube" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-danger" type="button" id="button-addon2">Enviar!</button>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+       </div>
+    </section>
+    <section class="dashboard">
+      <div class="row align-items-center">
+            <!--
+        <div>
+            <img src="" alt="">
+            <video controls="true" src="./video/Ese_amigo_vale_oro__Casi_Creativo(youtube.com).mp4"></video>
+        </div>   
+    -->
+        <div class="col-1"></div>
+        <div align="center" class="col-6 embed-responsive embed-responsive-16by9">
+            <video controls="true"autoplay loop class="video embed-responsive-item">
+                <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="col-4">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-light font-italic">Titulo: </li>
+                <li class="list-group-item list-group-item-danger font-italic">Descripción</li>
+              </ul>
+        </div>  
+      </div>      
+    </section>
+    <section class="dashboardPagination">
+        <div class="container align-items-center">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4 pagination">
+                    <li class="page-item"><a href="" class="page-link text-light bg-danger">< Previo</a></li>
+                    <li class="page-item"><a href="" class="page-link text-danger">1</a></li>
+                    <li class="page-item"><a href="" class="page-link text-danger">2</a></li>
+                    <li class="page-item"><a href="" class="page-link text-light bg-danger">3</a></li>
+                    <li class="page-item"><a href="" class="page-link text-danger">4</a></li>
+                    <li class="page-item"><a href="" class="page-link text-danger">5</a></li>
+                    <li class="page-item"><a href="" class="page-link text-light bg-danger">Siguiente ></a></li>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -46,6 +120,9 @@
     <script src="https://www.youtube.com/iframe_api"></script>
 
 -->
+
+    <script src="./jquery-3.1.0.js"></script>
+    <script src="./bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>

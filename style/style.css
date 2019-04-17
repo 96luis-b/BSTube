@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 10px;
+}
+
+.presentation{
+    padding:10px;
+}
+.presentation .videoPresentation{
+    width: 100%;
+    height: 500px;
+}
+
+.dashboard{
+    padding:10px;
+}
+
+.dashboard .video{
+    width: 100%;
+    height: auto;    
+}
