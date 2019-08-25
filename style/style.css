@@ -21,9 +21,6 @@ header{
     font-family: 'Lobster', cursive;
 }
 
-.body_first{
-    background-image: url("./img/554f47d441b7a017e6fa05623ea38789.jpg")
-}
 
 
 
@@ -53,16 +50,35 @@ header{
     width: 100%;
 }
 .search_video{
-    top:300px;
+    top:350px;
     left: 100px;
     position: absolute;
     z-index: 2;
 }
 
-.text_presentation{
-    top: 450px;
+.text_presentation_header{
+    font-family: 'Courgette', cursive;
+    top: 95px;
     left: 100px;
     position: absolute;
     z-index: 2;
     color: white;
 }
+
+.text_presentation_footer{
+    font-family: 'Courgette', cursive;
+    top: 600px;
+    left: 100px;
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
+
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Kalam', cursive;
+*/
