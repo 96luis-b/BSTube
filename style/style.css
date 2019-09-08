@@ -4,9 +4,43 @@ font-family: 'Indie Flower', cursive;
 font-family: 'Lobster', cursive;
 font-family: 'Source Code Pro', monospace;
 font-family: 'Permanent Marker', cursive;
-font-family: 'Courgette', cursive;
+
+font-family: 'Courgette', cursive;  ****
+
 font-family: 'Kalam', cursive;
+font-family: 'Gayathri', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Modak', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Signika', sans-serif;
+font-family: 'Patua One', cursive;
 */
+
+/*      filtro css
+filter: blur(5px);
+filter: brightness(0.4);
+filter: contrast(200%);
+filter: drop-shadow(16px 16px 20px blue);
+filter: grayscale(50%);
+filter: hue-rotate(90deg);
+filter: invert(75%);
+filter: opacity(25%);
+filter: saturate(30%);
+filter: sepia(60%);
+
+/* Apply multiple filters 
+filter: contrast(175%) brightness(3%);
+
+/* Global values *
+filter: inherit;
+filter: initial;
+filter: unset;
+
+
+*/
+
+
 
 *{
     margin: 0;
@@ -19,6 +53,15 @@ header{
 
 .BSTube{
     font-family: 'Lobster', cursive;
+    /*probar 
+  color: #FFF;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font: italic bold 100px Georgia, Serif;
+  text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
+
+    */
 }
 
 
@@ -57,22 +100,38 @@ header{
 }
 
 .text_presentation_header{
-    font-family: 'Courgette', cursive;
+    
+    font-family: 'Righteous', cursive;
     top: 95px;
-    left: 100px;
+    left: 120px;
     position: absolute;
     z-index: 2;
     color: white;
 }
 
 .text_presentation_footer{
-    font-family: 'Courgette', cursive;
-    top: 600px;
+    font-family: 'Righteous', cursive;
+    top: 650px;
     left: 100px;
     position: absolute;
     z-index: 2;
     color: white;
+
 }
+
+.text_shadow{
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.75);
+}
+
+.text_shadow_mult{
+    text-shadow: 2px 2px 3px black, 4px 4px 3px red, 6px 6px 3px black;
+}
+.text_shadow_blue{
+    text-shadow: 4px 4px 3px rgba(16, 19, 197, 0.801);
+    }
+.text_shadow_red{
+    text-shadow: 4px 4px 3px rgba(197, 5, 5, 0.74);
+    }
 
 /*
 font-family: 'Indie Flower', cursive;
