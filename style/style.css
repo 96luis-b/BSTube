@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Indie+Flower|Kalam|Lobster|Permanent+Marker|Source+Code+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+/*
+  font-family: 'Lobster', cursive;  
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Playfair+Display&display=swap');
+/*
+font-family: 'Mansalva', cursive;
+font-family: 'Playfair Display', serif;
+*/
+
+
 /*
 font-family: 'Indie Flower', cursive;
 font-family: 'Lobster', cursive;
@@ -41,7 +54,6 @@ filter: unset;
 */
 
 
-
 *{
     margin: 0;
     padding: 0;
@@ -51,8 +63,11 @@ header{
     padding: 10px;
 }
 
+
 .BSTube{
-    font-family: 'Lobster', cursive;
+    
+    font-family: 'Lobster', cursive; 
+    z-index: 20; 
     /*probar 
   color: #FFF;
   margin: 0 auto;
@@ -70,7 +85,6 @@ header{
 .container_video_presentation{
     align-items: center;
     justify-content: center;
-    
     width: 100%;
 }
 
@@ -101,6 +115,7 @@ header{
 
 .text_presentation_header{
     
+    /*  font-family: 'Courgette', cursive;  */
     font-family: 'Righteous', cursive;
     top: 95px;
     left: 120px;
@@ -120,7 +135,7 @@ header{
 }
 
 .text_shadow{
-    text-shadow: 4px 4px 3px rgba(0,0,0,0.75);
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.75);
 }
 
 .text_shadow_mult{
@@ -132,6 +147,11 @@ header{
 .text_shadow_red{
     text-shadow: 4px 4px 3px rgba(197, 5, 5, 0.74);
     }
+
+.file_name{
+    font-family: 'Righteous', cursive;
+}
+
 
 /*
 font-family: 'Indie Flower', cursive;

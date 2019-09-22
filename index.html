@@ -7,13 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/lines.css">
-    <link rel="stylesheet" href="./style/latino.css">
+    <link rel="stylesheet" href="./style/latido.css">
     <link rel="stylesheet" href="./bootstrap-4.1.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./jquery-3.1.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="./bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
     <!-- <link href="https://fonts.googleapis.com/css?family=Courgette|Indie+Flower|Kalam|Lobster|Permanent+Marker|Source+Code+Pro&display=swap" rel="stylesheet"> -->
+    <script src="./app.js"></script>
 
 </head>
 <body>
@@ -45,14 +46,14 @@
                 <div class="lienzo">
                     <div class="triangulo"></div>
                 </div>
-        
+                
         <div class="row align-items-start py-4 ">
-            <span class="align-middle display-4 BSTube text_shadow_mult">B</span>
-            <span class="align-middle display-4 BSTube text_shadow_mult">S</span>
-            <span class="align-middle display-4 BSTube text_shadow_mult">T</span>
-            <span class="align-middle display-4 BSTube text_shadow_mult ">u</span>
-            <span class="align-middle display-4 BSTube text_shadow_mult">b</span>
-            <span class="align-middle display-4 BSTube text_shadow_mult">e</span>
+            <span id="logo_B" class="align-middle display-4 BSTube text_shadow_mult pr-1">B</span>
+            <span id="logo_S" class="align-middle display-4 BSTube text_shadow_mult latido_logo_S pr-1">S</span>
+            <span id="logo_T" class="align-middle display-4 BSTube text_shadow_mult latido_logo_T pr-1">T</span>
+            <span id="logo_u" class="align-middle display-4 BSTube text_shadow_mult latido_logo_u pr-1">u</span>
+            <span id="logo_b" class="align-middle display-4 BSTube text_shadow_mult latido_logo_b pr-1">b</span>
+            <span id="logo_e" class="align-middle display-4 BSTube text_shadow_mult latido_logo_e">e</span>
         </div>
     </div>
     <div style="margin:0; padding: 0; width: 100%; height: 43rem">
@@ -122,30 +123,36 @@
         </div>    
     </div>
     
-    <div class="container">
+    <div class="container file">
+        <div class="container">
             <div class="row">
                 <div class="col-1">
                 </div>  
-                <div class="col-10 text-center">
-                    <p> <h1>Titulo</h1>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eius natus, quos blandit</p>
+                <div class="col-10 text-start">
+                    <p><h1 id="file_name" class="file_name text_shadow align-items-start">Titulo:</h1></p>
                 </div>
                 <div class="col-1">
                 </div> 
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row ">
                 <div class="col-1"></div>
-                <div class="col-10 text-center">
-                    <div align="center" >
-                        <video controls="true" loop class="video rounded-lg embed-responsive-item" style="border-radius: 80px 20px; outline: none; text-align:center;">
-                            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+                <div class="col-5">
+                    <div align="align-items-start">
+                        <video controls="true" loop class="video rounded-lg embed-responsive-item" style="width: 100%; height: 220px; border-radius: 100px 30px 20px 20px; outline: none; text-align:center; box-shadow: 3px 3px 7px black;">
+                            <source src="./video/HERMOSO VIDEO - Cuestión de actitud.mp4" type="video/mp4">
                         </video>
                     </div> 
                 </div>
-                <div class="col-1"></div>
+                <div class="col-6 text-center p-5">
+                    <button class="btn btn-danger">Mp4</button>
+                    <button class="btn btn-danger">Descargar</button>
+                </div>
             </div>   
         </div> 
+    </div>    
+
     <div class="container align-items-center p-5">
         <div class="row">
             <div class="col text-center">

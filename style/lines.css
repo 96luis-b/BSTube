@@ -1,47 +1,46 @@
 .box_line_1{
     position: absolute;
     left: 0;
-    width: 50px;
     height: 100px;
-    width: 335px;
+    width: 95px;
     overflow: hidden;
 }
 .box_line_2{
     position: absolute;
-    top: 38px;
-    left: 335px;
+    top: 63px;
+    left: 95px;
     width: 2px;
     height: 30px;
     overflow: hidden;
 }
 .box_line_3{
     position: absolute;
-    top: 38px;
-    left: 335px;
+    top: 63px;
+    left: 95px;
     width: 250px;
     height: 2px;
     overflow: hidden;
 }
 .box_line_4{
     position: absolute;
-    top: 13px;
-    left: 585px;
+    top: 35px;
+    left: 345px;
     width: 2px;
     height: 29px;
     overflow: hidden;
 }
 .box_line_5{
     position: absolute;
-    top: 40px;
-    left: 585px;
+    top: 64px;
+    left: 345px;
     width: 2px;
     height: 29px;
     overflow: hidden;
 }
 .box_line_6{
     position: absolute;
-    top: 26px;
-    left: 581px;
+    top: 48px;
+    left: 340px;
     width: 43px;
     height: 2px;
     transform: rotate(41deg);
@@ -49,8 +48,8 @@
 }
 .box_line_7{
     position: absolute;
-    top: 54px;
-    left: 580px;
+    top: 76px;
+    left: 341px;
     width: 43px;
     height: 2px;
     transform: rotate(-41deg);
@@ -58,9 +57,9 @@
 }
 .box_line_8{
     position: absolute;
-    top: 40px;
-    left: 617px;
-    width: 181px;
+    top: 63px;
+    left: 377px;
+    width: 962px;
     height: 2px;
     overflow: hidden;
 }
@@ -93,7 +92,7 @@
 
 .line_1{
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 10px;
     width: 100%;
     height: 1px;
@@ -175,7 +174,7 @@
         transform: translateX(-100%);
     }
     100%{
-        transform: translateX(150%);
+        transform: translateX(230%);
     }
 }
 
