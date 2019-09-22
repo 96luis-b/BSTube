@@ -7,6 +7,7 @@ $(document).ready(function(){
     setTimeout(function(){$('#logo_u').addClass('latido_logo');}, 750);
     setTimeout(function(){$('#logo_b').addClass('latido_logo');}, 800);
     setTimeout(function(){$('#logo_e').addClass('latido_logo');}, 850);
+    setTimeout(function(){$('#triangulo').addClass('triangulo');}, 850);
     
 });
 
