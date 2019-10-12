@@ -134,6 +134,10 @@ header{
 
 }
 
+.text_select{
+    font-family: 'Righteous', cursive;
+}
+
 .text_shadow{
     text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.75);
 }
